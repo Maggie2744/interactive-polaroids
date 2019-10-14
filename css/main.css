@@ -1,4 +1,4 @@
-/* transition: property length timing-function */
+/* transition: property length timing-function delay(optional)*/
 /* transform: rotate(30deg) scale(1.5) translate(100px,50px);*/
 
 html {
@@ -10,10 +10,10 @@ html {
   margin: 0;
   padding: 10px;
   width: 250px;
-  transition: ;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  transition:
 }
 
 .polaroid:nth-child(1) {
@@ -44,6 +44,14 @@ figcaption {
   transform: translate(70px, -20px)
 }
 
-.polaroid:hover {
-  transition: rotate(0deg) scale(1.3);
+.polaroid:nth-child(1):hover {
+  transform: rotate(1deg) translate(220px, 200px);
+}
+
+.polaroid:nth-child(3):hover {
+  transform: rotate(25deg) translate(320px, -370px);
+}
+
+.polaroid:nth-child(2):hover {
+  transform: rotate(5deg) translate(330px, 5px);
 }
