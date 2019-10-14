@@ -16,15 +16,15 @@ html {
 }
 
 .polaroid:nth-child(1) {
-  transform: translate(250px, 200px);
+  transform: rotate(-10deg) translate(220px, 200px);
 }
 
 .polaroid:nth-child(2) {
-  transform: translate(430px);
+  transform: rotate(25deg) translate(400px, -220px);
 }
 
 .polaroid:nth-child(3) {
-  transform: translate(330px, -105px);
+  transform: rotate(5deg) translate(330px, -175px);
 }
 
 .polaroid > img {
