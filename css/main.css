@@ -15,15 +15,15 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 }
 
-.hadrosaur {
+.polaroid:nth-child(1) {
   transform: translate(250px, 200px);
 }
 
-.stegosaurus {
+.polaroid:nth-child(2) {
   transform: translate(430px);
 }
 
-.pteranodon {
+.polaroid:nth-child(3) {
   transform: translate(330px, -105px);
 }
 
