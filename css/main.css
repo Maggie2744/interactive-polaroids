@@ -1,6 +1,8 @@
+/* transition: property length timing-function */
+/* transform: rotate(30deg) scale(1.5) translate(100px,50px);*/
+
 html {
   background-color: #e2e2e2;
-
   font-family: sans-serif;
 }
 
@@ -8,10 +10,21 @@ html {
   margin: 0;
   padding: 10px;
   width: 250px;
-
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+}
+
+.hadrosaur {
+  transform: translate(250px, 200px);
+}
+
+.stegosaurus {
+  transform: translate(430px);
+}
+
+.pteranodon {
+  transform: translate(330px, -105px);
 }
 
 .polaroid > img {
@@ -22,4 +35,8 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+}
+
+.polaroid:hover {
+  transform: rotate ();
 }
